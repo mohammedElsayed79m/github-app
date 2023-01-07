@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Githup App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Github App</h2>
+    </header>
+    <main>
+      <div class="left">
+        <div class="username">
+          <h3>get Repos by userName</h3>
+          <form id="form">
+            <label for="user">UserName :</label>
+            <input type="text" name="user" id="user-input" />
+            <button type="submit">Get Repos</button>
+          </form>
+        </div>
+        <div class="topic">
+          <h3>Topic</h3>
+          <ul class="languages">
+            <li data-lang="javascript">javascript</li>
+            <li data-lang="Css">Css</li>
+            <li data-lang="Html">Html</li>
+            <li data-lang="Php">Php</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <p class="search-item"></p>
+        <div id="repos"></div>
+      </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

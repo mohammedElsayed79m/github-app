@@ -1,0 +1,46 @@
+a{
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+body{
+    font-family:   open sans;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:   open sans;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: rgb(13, 77, 216);
+    color: white;
+}
+header h2{
+    background-color: #eee;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 6px 6px 7px 0 black ;
+}
+#repos{
+    margin-top: 150px;
+    width: 80%;
+    margin: 150px auto 20px;
+}
